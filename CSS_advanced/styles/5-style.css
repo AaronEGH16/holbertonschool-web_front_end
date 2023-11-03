@@ -44,5 +44,6 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    /*customize all headings tags font*/
     font-family: var(--font-family-title);
 }

@@ -1,0 +1,18 @@
+html {
+    /*scrolling behavior becomes fluid*/
+    scroll-behavior: smooth;
+}
+
+body, a {
+    /*set body and anchor foreground color*/
+    color: #161616;
+}
+
+.visually-hidden {
+    /*all "visually-hidden" class are hidden*/
+    display: none;
+}
+
+.card-category, .section-tagline {
+    color: #D73953;
+}

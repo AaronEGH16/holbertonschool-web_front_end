@@ -166,6 +166,62 @@ template{
     --footer-padding: 5rem 0 1rem;
 }
 
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    /*scrolling behavior becomes fluid*/
+    scroll-behavior: smooth;
+    /*set the all html elements font size*/
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*customize all headings tags font*/
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+footer {
+    padding: var(--footer-padding);
+}
+
+a, body {
+    /*set body and anchor foreground color*/
+    color: var(--text-color);
+}
+
+body {
+    /*set font-family to custom font var*/
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
+}
+
+a:link {
+    /*set anchor link foreground color*/
+    color: var(--text-color);
+    /*set anchor link text decoration to none*/
+    text-decoration: none;
+}
+
+a:visited {
+    /*set the visited anchor font*/
+    font-style: italic;
+}
+
+a:hover {
+    /*set the hover anchor decoration*/
+    text-decoration: underline;
+}
+
+a:active {
+    /*set the active anchor background color*/
+    background-color: var(--color-light-grey);
+}
+
 .visually-hidden {
     /*all "visually-hidden" class are hidden*/
     display: none;
@@ -212,60 +268,4 @@ template{
 
 .card-category {
     color: var(--color-primary);
-}
-
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
-html {
-    /*scrolling behavior becomes fluid*/
-    scroll-behavior: smooth;
-    /*set the all html elements font size*/
-    font-size: 62.5%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    /*customize all headings tags font*/
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-a, body {
-    /*set body and anchor foreground color*/
-    color: var(--text-color);
-}
-
-body {
-    /*set font-family to custom font var*/
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
-}
-
-a:link {
-    /*set anchor link foreground color*/
-    color: var(--text-color);
-    /*set anchor link text decoration to none*/
-    text-decoration: none;
-}
-
-a:visited {
-    /*set the visited anchor font*/
-    font-style: italic;
-}
-
-a:hover {
-    /*set the hover anchor decoration*/
-    text-decoration: underline;
-}
-
-a:active {
-    /*set the active anchor background color*/
-    background-color: var(--color-light-grey);
-}
-
-footer {
-    padding: var(--footer-padding);
 }

@@ -5,9 +5,12 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    /*set body foreground color*/
+a, body {
+    /*set body and anchor foreground color*/
     color: var(--text-color);
+}
+
+body {
     /*set font-family to custom font var*/
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);

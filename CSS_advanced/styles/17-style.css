@@ -125,6 +125,17 @@ template{
 }
 /*# sourceMappingURL=normalize.min.css.map */
 
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    /*scrolling behavior becomes fluid*/
+    scroll-behavior: smooth;
+    /*set the all html elements font size*/
+    font-size: 62.5%;
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -164,17 +175,6 @@ template{
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-}
-
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
-html {
-    /*scrolling behavior becomes fluid*/
-    scroll-behavior: smooth;
-    /*set the all html elements font size*/
-    font-size: 62.5%;
 }
 
 a, body {

@@ -15,22 +15,25 @@ body {
     line-height: var(--line-height-base);
 }
 
-a {
-    /*set anchor foreground color*/
+a:link {
+    /*set anchor link foreground color*/
     color: var(--text-color);
-    /*set anchor text decoration to none*/
+    /*set anchor link text decoration to none*/
     text-decoration: none;
 }
 
 a:visited {
+    /*set the visited anchor font*/
     font-family: italic;
 }
 
 a:hover {
+    /*set the hover anchor decoration*/
     text-decoration: underline;
 }
 
-a:link {
+a:active {
+    /*set the active anchor background color*/
     background-color: var(--color-light-grey);
 }
 

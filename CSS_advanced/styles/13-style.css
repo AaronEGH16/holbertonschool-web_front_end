@@ -27,7 +27,7 @@ a:link {
 
 a:visited {
     /*set the visited anchor font*/
-    font-family: italic;
+    font-style: italic;
 }
 
 a:hover {

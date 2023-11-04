@@ -177,16 +177,6 @@ html {
     font-size: 62.5%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    /*customize all headings tags font*/
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-footer {
-    padding: var(--footer-padding);
-}
-
 a, body {
     /*set body and anchor foreground color*/
     color: var(--text-color);
@@ -198,6 +188,12 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*customize all headings tags font*/
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 a:link {
@@ -268,4 +264,8 @@ a:active {
 
 .card-category {
     color: var(--color-primary);
+}    
+
+footer {
+    padding: var(--footer-padding);
 }
